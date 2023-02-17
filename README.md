@@ -1,7 +1,7 @@
 Compound Protocol Foundry tests
 =================
 
-This repo has Foundry frameworks tests for the Compound protocol as a learning tool.
+This repo has Foundry framework tests for the Compound protocol as a learning tool.
 Tests cover main protocol usages as supply and redemption of tokens and borrowing, via the usage of a Contract (SupplyTokenCompound). 
 Tests are run against a local Ethereum mainnet fork.
 
