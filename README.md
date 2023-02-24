@@ -2,7 +2,9 @@ Compound Protocol Foundry tests
 =================
 
 This repo has Foundry framework tests for the Compound protocol as a learning tool.
-Tests cover main protocol usages as supply and redemption of tokens and borrowing, via the usage of a Contract (SupplyTokenCompound). 
+Tests cover main protocol usages as supply and redemption of tokens and borrowing, via the usage of two Contracts: SupplyTokenCompound and BorrowTokenCompound. 
+These can be viewed as "User Compound vaults" and obviously, if these were real production Vaults, an authorization mechanism should have been added (adding a contract's owner and checking for it on each Contract's method call). 
+
 Tests are run against a local Ethereum mainnet fork.
 
 Usage
